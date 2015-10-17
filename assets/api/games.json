@@ -1,0 +1,115 @@
+[
+  {
+    "id":"1",
+    "name" : "Star Craft",
+    "image" : "assets/img/starcraft.jpg",
+    "description" : "Set in a fictitious timeline during the Earths 25th century, the game revolves around three species fighting for dominance in a distant part of the Milky Way galaxy known as the Koprulu Sector: the Terrans, humans exiled from Earth skilled at adapting to any situation; the Zerg, a race of insectoid aliens in pursuit of genetic perfection, obsessed with assimilating other races; and the Protoss, a humanoid species with advanced technology and psionic abilities, attempting to preserve their civilization and strict philosophical way of living from the Zerg.",
+    "category" : "Strategy",
+    "company" : " Blizzard Entertainment",
+    "video":"https://www.youtube.com/embed/6GMOTrIjVao" ,
+    "releaseDate":"March 31, 1998",
+    "rating":"9.1"
+  },
+  {
+    "id":"2",
+    "name" : "Stronghold",
+    "image" : "assets/img/stronghold.jpg",
+    "description" : "The game focuses primarily on conquest and expansion through military pursuits, but also provides space for economic strategy and development. There is both an economic and a military campaign to be played and both are discussed in the game manual. The game takes place in Medieval Britain around the time of AD 1066; however, since there is not always a time limit, scenarios can continue hundreds of years beyond that date.",
+    "category" : "Strategy",
+    "company" : " Firefly Studios",
+    "video":"https://www.youtube.com/embed/jeaLN6zdRO8",
+    "releaseDate":"October 19, 2001",
+    "rating":"7.6"
+  },
+  {
+    "id":"3",
+    "name" : "League of legend",
+    "image" : "assets/img/LeagueofLegend.png",
+    "description" : "In League of Legends, players assume the role of an unseen 'summoner' that controls a 'champion' with unique abilities and battle against a team of other players or computer-controlled champions. The goal is usually to destroy the opposing teams 'nexus', a structure which lies at the heart of a base protected by defensive structures. Each League of Legends match is discrete, with all champions starting off fairly weak but increasing in strength by accumulating items and experience over the course of the game",
+    "category" : "Strategy",
+    "company" : "Riot Games",
+    "video":"https://www.youtube.com/embed/cXZqfuJ9Zps",
+    "releaseDate":"October 27, 2009",
+    "rating":"9.2"
+  },
+  {
+    "id":"4",
+    "name" : "Assassins Creed",
+    "image" : "assets/img/AssassinsCreed.png",
+    "description" : "The game primarily takes place during the Third Crusade in the Holy Land in 1191, with the plot revolving around the Secret Order of Assassins, based upon the Hashshashin sect. Assassins is a sub-branch of the Shiite sect. The player is in reality playing as a modern-day man named Desmond Miles, who, through the use of a machine named the 'Animus', is allowed the viewing and controlling of the protagonists genetic memories of his ancestors, in this case, Altaïr Ibn-LaAhad, a member of the Assassins.Through this plot device, details emerge of a struggle between two factions, the Knights Templar and the Assassins, over an artifact known as a 'Piece of Eden', an ancient artifact used to control minds",
+    "category" : "Adventure",
+    "company" : "Ubisoft",
+    "video":"https://www.youtube.com/embed/iFJ-0lknYcc",
+    "releaseDate":"November 13, 2007",
+    "rating":"9"
+  },
+  {
+    "id":"5",
+    "name" : "Crysis",
+    "image" : "assets/img/Crysis.jpg",
+    "description" : "The game is based in a future where a massive ancient space alien-constructed structure has been discovered buried inside a mountain on an island in the fictional Lingshan Islands, near the coast of the East Philippines. The single-player campaign has the player assume the role of U.S. Army Delta Force soldier Jake Dunn, referred to in-game by his callsign, Nomad. Nomad is armed with various futuristic weapons and equipment, most notably a 'Nanosuit' which was inspired by a real-life military concept. In Crysis, the player fights both North Korean and extraterrestrial enemies in various environments on and around the island.",
+    "category" : "FPS",
+    "company" : "Crytek",
+    "video":"https://www.youtube.com/embed/xvfVmlVcnJI",
+    "releaseDate":"November 13, 2007",
+    "rating":"9.5"
+  },
+  {
+    "id":"6",
+    "name" : "Sniper: Ghost Warrior",
+    "image" : "assets/img/SniperGhostWarrior.jpg",
+    "description" : "The game is based around the role of the military sniper, which the developer has noted that the public interest of which has increased thanks in large parts to shows on channels like the History Channel or the Military Channel. The games objective is to insert players into the role of an elite sniper team sent into a hostile area in an attempt to help the rebels of Isla Trueno, a fictitious Latin American country, fight against the force who has toppled their government in a coup détat.",
+    "category" : "Tactical",
+    "company" : "City Interactive",
+    "video":"https://www.youtube.com/embed/qYCgLVCK_PE",
+    "releaseDate":"June 24, 2010",
+    "rating":"5.5"
+  },
+  {
+    "id":"7",
+    "name" : "Metro2033",
+    "image" : "assets/img/Metro2033.jpg",
+    "description" : "In Metro 2033, the player controls Artyom as he moves through the ruins of post-nuclear-apocalyptic Russia. The player uses guns of both real and fictitious designs to kill mutants and hostile survivors. Most of the game takes place within the Metro system, although Artyom does venture above ground on rare occasions.",
+    "category" : "Survival Horror",
+    "company" : "4A Games",
+    "video":"https://www.youtube.com/embed/Xc2hhef-Nzo",
+    "releaseDate":"March 16, 2010",
+    "rating":"6.9"
+  },
+  {
+    "id":"8",
+    "name" : "Batman: Arkham Origins",
+    "image" : "assets/img/BatmanArkhamOrigins.jpg",
+    "description" : "The game main storyline is set five years before that of 2009 Batman: Arkham Asylum and follows a younger, less-refined Batman. A bounty is placed on him by crime lord Black Mask, drawing eight of the worlds greatest assassins to Gotham City on Christmas Eve. The villains, including the Joker and Anarky, take advantage of the chaos to launch nefarious schemes, while Gotham City police try to apprehend Batman.",
+    "category" : "Action",
+    "company" : "Warner Bros. Games Montréal",
+    "video":"https://www.youtube.com/embed/9pnK8akbd2M",
+    "releaseDate":"October 25, 2013",
+    "rating":"7.8"
+  },
+  {
+    "id":"9",
+    "name" : "Devil May Cry",
+    "image" : "assets/img/DevilMayCry.jpg",
+    "description" : "The games story focuses on the player character Dante, a young man at the start of his saga. Dante is a Nephilim; half-angel, half-demon. He is partnered with his twin brother, Vergil, and is on a quest to kill the Demon King Mundus, who murdered their mother and condemned their father to banishment. Players can use Dantes iconic sword, Rebellion, and signature handguns, Ebony and Ivory, as well as a variety of other melee weapons and firearms to defeat enemies. The game also introduces Angel Mode and Devil Mode, which are modifiers to Dantes moveset.",
+    "category" : "Action",
+    "company" : "Capcom",
+    "video":"https://www.youtube.com/embed/MRXVzKKGPO4",
+    "releaseDate":"August 23, 2001",
+    "rating":"8.5"
+  },
+  {
+    "id":"10",
+    "name" : "BioShock Infinite",
+    "image" : "assets/img/BioShockInfinite.jpg",
+    "description" : "Set in 1912, the game has the protagonist, former Pinkerton agent Booker DeWitt, sent to the floating air city of Columbia to find a young woman, Elizabeth, who has been held captive there for most of her life. Though Booker rescues Elizabeth, the two become involved with the citys warring factions: the nativist and elite Founders that rule Columbia and strive to keep its privileges for White Americans, and the Vox Populi, underground rebels representing the underclass of the city. During this conflict, Booker learns that Elizabeth possesses strange powers to manipulate 'Tears' in the space-time continuum that ravage Columbia, and soon discovers her to be central to the citys dark secrets.",
+    "category" : "FPS",
+    "company" : "2kGames",
+    "video":"https://www.youtube.com/embed/J_gEzOZKyE4",
+    "releaseDate":"March 26, 2013",
+    "rating":"9.5"
+  }
+
+
+
+]

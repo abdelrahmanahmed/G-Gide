@@ -1,0 +1,140 @@
+html{
+    font-family: 'Segoe UI' !important;
+}
+.games-list{
+    padding-top: 30px;
+}
+body{
+    background-color: #F2F2F2;
+}
+.panel{
+    background-color: #FFFFFF;
+
+
+}
+.des{
+    height: 140px!important;
+    overflow: hidden;
+}
+.see-more{
+    margin-top: 20px;
+}
+.game-item{
+    float: left !important;
+}
+input,select{
+    border-radius: 10px !important;
+    background-color: transparent !important; ;
+    color: #FFFFFF !important;
+    outline:none;
+
+
+}
+
+
+option {
+    background-color: #f6f6f6 !important;;
+    color: #303030 !important;
+
+}
+
+.right{
+    background-color: #333333 !important;
+
+
+}
+
+.top-bar input, .top-bar select, .top-bar .button, .top-bar button{
+    height: 100%;
+    font-size: 16px;
+}
+
+img
+{
+    display: block;
+    margin: 15px auto;
+}
+select{
+    background: url('../img/br_down.png') no-repeat right !important;
+    appearance:none;
+    -moz-appearance:none; /* Firefox */
+    -webkit-appearance:none; /* Safari and Chrome */
+    background-position-x: 95%!important;
+}
+
+
+.label{
+   font-size: 18px!important;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.navbarInputs{
+    padding-right: 10px!important;
+}
+.test{
+    display: none;
+}
+
+.label{
+    border-radius: 15px!important;
+}
+@media only screen and (max-width: 52.0625em) {
+
+    .navbarInputs {
+        margin-top: 5px!important;
+        padding: 7px !important;
+    }
+
+    .test{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+
+    }
+
+    .test a {
+        color: #FFFFFF;
+        display: block;
+        font-size: 0.8125rem;
+        font-weight: bold;
+        height: 2.8125rem;
+        line-height: 2.8125rem;
+        padding: 0 0.9375rem;
+        position: relative;
+        text-transform: uppercase;
+
+    }
+
+    .test.menu-icon {
+        margin-top: -16px;
+        top: 50%; }
+    .test.menu-icon a {
+        color: #FFFFFF;
+        height: 34px;
+        line-height: 33px;
+        padding: 0 2.5rem 0 0.9375rem;
+        position: relative; }
+
+
+    .test.menu-icon a span::after {
+        content: "";
+        display: block;
+        height: 0;
+        position: absolute;
+        margin-top: -8px;
+        top: 50%;
+        right: 0.9375rem;
+        box-shadow: 0 0 0 1px #FFFFFF, 0 7px 0 1px #FFFFFF, 0 14px 0 1px #FFFFFF;
+        width: 16px; }
+    .test.menu-icon a span:hover:after {
+        box-shadow: 0 0 0 1px "", 0 7px 0 1px "", 0 14px 0 1px ""; }
+}
+
+
+
+
+
+
+

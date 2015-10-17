@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+<div class="row games-list " ng-controller="GameVideoCtrl" >
+    <div  class="large-12 medium-12 small-12 columns ">
+
+        <div  class="panel" >
+            <div class="row  game-name">
+                <div class="large-3 columns ">
+
+                    <span class="label ">{{game.name}} </span>
+
+                 </div>
+                <div class="large-3  columns">
+
+                <span class="label ">Rating {{game.rating}}/10 </span>  </div>
+                <div class="large-3  columns">
+                    <span class="label ">{{game.category}} </span>
+              </div>
+                <div class="large-3  columns">
+
+                <span class="label ">{{game.releaseDate}} </span> </div>
+
+
+                <hr/>
+            </div>
+            <div class="row">
+                <div class="large-12 medium-12 small-6 columns" >
+                    <div class="flex-video">
+                        <iframe  width="640" height="385" ng-src="{{trustSrc(game.video)}}" allowfullscreen frameborder="0"></iframe>
+
+                    </div>                    <hr/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-12  medium-12 small-12 columns  ">
+                    {{game.description}}
+
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+</div>
+<div class="row">
+    <div class="large-12 columns ">
+        <a class="expand button" href="#/">Back</a>
+    </div>
+
+</div>
+
+
+
+

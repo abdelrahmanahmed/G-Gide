@@ -1,0 +1,36 @@
+<games-header></games-header>
+<div class="row games-list" >
+    <div  class="large-4 medium-6 small-12 columns game-item" ng-repeat="game in games | filter: searchKey | filter: CategoryKey">
+
+        <div  class="panel" >
+            <div class="row text-center game-name">
+                <strong><h4>{{game.name}}</h4>
+                    <hr/>
+                </strong>
+            </div>
+            <div class="row">
+                <div class="large-12 medium-12 small-12 columns" >
+                    <img ng-src="{{game.image}}" style="width: 260px;height: 315px" >
+                    <hr/>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-12  medium-12 small-12 columns des ">
+                    {{game.description}}
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="large-12  medium-12 small-12 columns see-more">
+                    <a href="#/{{game.id}}" class="expand button   ">More Info</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</div>

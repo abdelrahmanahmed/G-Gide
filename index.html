@@ -1,0 +1,36 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="gamesApp">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>G-Gide </title>
+    <link rel="stylesheet" href="assets/css/foundation.css"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <script src="assets/js/lib/vendor/modernizr.js"></script>
+</head>
+<body ng-controller="gamesControllerCtrl">
+
+<div ng-view autoscroll=""></div>
+<games-footer></games-footer>
+<script src="assets/js/lib/vendor/jquery.js"></script>
+<script src="assets/js/lib/foundation.min.js"></script>
+<script src="assets/js/lib/angular.min.js"></script>
+<script src="assets/js/lib/angular-route.min.js"></script>
+<script src="assets/js/lib/angular-sanitize.min.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+    $(document).foundation();
+
+
+</script>
+<script>
+    function expand(){
+        if($('#navbar').hasClass("expanded"))
+            $('#navbar').removeClass("expanded");
+        else
+            $('#navbar').addClass("expanded");
+    }
+</script>
+
+</body>
+</html>

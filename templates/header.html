@@ -1,0 +1,56 @@
+<nav  id="navbar" class="top-bar" data-topbar role="navigation" >
+    <ul class="title-area">
+        <li class="name">
+            <h1>
+                <a href="#/">
+                    G-Gide
+                </a>
+            </h1>
+        </li>
+        <li onclick="expand()" class="test menu-icon"><a  href="#/"><span>menu</span></a></li>
+    </ul>
+    <section class="top-bar-section">
+        <ul class="right" >
+
+            <!--<div class="row ">-->
+            <!--<div class="navbarInputs large-3 medium-3 columns">-->
+            <!--</div>-->
+            <!--<div class="navbarInputs large-3 medium-3 columns">-->
+
+            <!--</div>-->
+
+            <!--<div class="navbarInputs large-3 medium-3 columns">-->
+
+            <!--</div>-->
+
+            <!--<div class="navbarInputs large-3 medium-3 small-12 columns">-->
+            <!--</div>-->
+
+
+            <!--</div>-->
+
+            <li class=" navbarInputs active"> <input type="text" placeholder="ex: Crysis" ng-model="searchKey.name"/>
+            </li>
+            <li class=" navbarInputs">
+                <select ng-model="CategoryKey.category">
+                    <option value="">All Types</option>
+                    <option ng-repeat="game in games | unique:'category'" value={{game.category}}>{{game.category}}</option>
+
+
+                </select>
+            </li>
+            <li class=" navbarInputs">
+                <select ng-model="CategoryKey.company">
+                    <option value="">All Companies</option>
+                    <option ng-repeat="game in games | unique:'category'" value={{game.company}}>{{game.company}}</option>
+                </select>
+            </li>
+            <li style="margin-top: 0.5%"  class=" navbarInputs">
+
+                <a ng-click="rest()" class="button alert expand">Rest</a>
+
+            </li>
+
+        </ul>
+    </section>
+</nav>
